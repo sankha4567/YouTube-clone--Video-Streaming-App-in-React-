@@ -1,15 +1,31 @@
-# React + Vite
+This is a YouTube-like video streaming application built using React. The project showcases key React concepts like state management, routing, API handling, and live chat features, providing a seamless user experience similar to YouTube.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔹 Features
+✅ React Hooks – Used useState() and useEffect() for state and lifecycle management.
+✅ Debouncing in Search Bar – Optimized search queries by implementing the debouncing technique with API calls.
+✅ Dynamic Routing – Utilized React Router DOM to enable clickable video cards and navigation.
+✅ Live Chat Feature – Simulated real-time messaging using mock data with Redux store updates.
+✅ Nested Comments – Implemented a threaded comment system to mimic YouTube-style discussions.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-Debouncing:typing slow=.differnece beween key stroke very high time
-typing fast=differebce between key stroke is very less
-performance:
-iphone pro max =14*1000=14000
-with debouncing 3*1000=3000 api calls
-debouncing with 200 ms:if diff between two key stroke leass than < 200,i should not call the api
-> 200 make api call and show result
+🔹 Tech Stack
+🚀 React (Functional Components, Hooks)
+🎨 TailwindCSS (UI Styling)
+🔄 Redux Toolkit (State Management)
+🌐 React Router DOM (Navigation)
+⚡ Debouncing (Optimized API Calls)
+
+🔹 Setup Instructions
+1️⃣ Clone the repository:
+git clone https://github.com/sankha4567/YouTube-clone--Video-Streaming-App-in-React-.git
+2️⃣ Navigate into the project folder:
+cd YouTube-clone--Video-Streaming-App-in-React-
+3️⃣ Install dependencies:
+npm install
+4️⃣ Run the project:
+npm run dev
+
+
+
+
+
